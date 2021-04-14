@@ -4,6 +4,7 @@
   "description": "javascript tiny tools",
   "main": "dist/tiny-tool.js",
   "scripts": {
+    "start": "npx webpack serve --open",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +16,9 @@
   "author": "Simkin",
   "license": "ISC",
   "dependencies": {
+    "html-webpack-plugin": "^5.3.1",
     "webpack": "^5.32.0",
-    "webpack-cli": "^4.6.0"
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }

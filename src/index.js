@@ -1,2 +1,4 @@
-console.log('hello js');
-console.log('b.js');
+import { typeOf } from './common';
+
+console.log(typeOf(true))
+
