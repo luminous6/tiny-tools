@@ -1,1 +1,0 @@
-!function(o,e){"object"==typeof exports&&"object"==typeof module?module.exports=e():"function"==typeof define&&define.amd?define([],e):"object"==typeof exports?exports["tiny-tools.js"]=e():o["tiny-tools.js"]=e()}(self,(function(){return console.log("hello js"),console.log("b.js"),{}}));
