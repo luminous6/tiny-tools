@@ -1,0 +1,21 @@
+{
+  "name": "tiny-tools",
+  "version": "1.0.0",
+  "description": "javascript tiny tools",
+  "main": "dist/tiny-tool.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tools",
+    "js",
+    "util"
+  ],
+  "author": "Simkin",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.32.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
