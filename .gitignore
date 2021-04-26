@@ -3,3 +3,4 @@
 doc/*.html
 node_modules
 *.code-workspace
+/dist

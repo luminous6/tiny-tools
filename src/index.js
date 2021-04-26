@@ -1,4 +1,8 @@
 import { typeOf } from './common';
+import { debounce } from './util';
 
-console.log(typeOf(true))
-
+function log(e) {
+  console.log(e);
+}
+window.addEventListener('resize', debounce(log, 500));
+console.log(typeOf(true));

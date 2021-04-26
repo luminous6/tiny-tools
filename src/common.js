@@ -1,6 +1,6 @@
 /**
  * 判断数据类型
- * @param {*} val 
+ * @param {*} val
  * @return date | array | object | string | boolean
  */
 export const typeOf = (val) => {
